@@ -1,6 +1,7 @@
 <script setup lang="ts">
   defineProps({
-    label: String
+    label: String,
+    name: String
   })
 
   defineOptions({ inheritAttrs: false});
@@ -11,7 +12,7 @@
 <template>
   <div>
     <label
-      :for="$attrs.name"
+      :for=name
       class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
     >{{ label }}</label>
     <input 

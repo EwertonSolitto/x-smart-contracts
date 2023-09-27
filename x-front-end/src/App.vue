@@ -18,7 +18,7 @@ import XPost from './components/XPost.vue';
         chance de ganhar um valor de Ethereum de volta.
       </p>
       <XButton text="Conectar carteira" />
-      <XTextField label="Post" name="post" class="mb-2" type="text" id="post" placeholder="John" required />
+      <XTextField for="post" label="Post" name="post" class="mb-2" type="text" id="post" placeholder="John" required />
       <XButton text="Enviar post" />
       <div class="flex items-center">
         <span
